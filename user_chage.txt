@@ -1,0 +1,15 @@
+chown -R newuser testdir/
+
+
+https://www.phpini.com/linux/chown-change-file-dir-owner
+
+
+
+
+
+$ echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+
+
+$ sudo nano /etc/resolv.conf
+   And add this line instead of what ever you have:
+    >> nameserver 8.8.8.8
