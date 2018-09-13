@@ -1,0 +1,22 @@
+https://mycyberuniverse.com/linux/how-to-fix-ping-unknown-host-com.html
+
+
+Q:
+1. How to fix: ¡§ping: unknown host ***.com¡¨
+
+2.
+$ ping github.com
+>>ping: unknown host github.com
+
+3.  Error: "fatal: unable to access 'https://github.com/hyperion057/spring-repo.git/': Could not resolve host: github.com"
+
+A:
+1.
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+
+2.
+$ sudo nano /etc/resolv.conf
+#And add this line instead of what ever you have:
+nameserver 8.8.8.8
+
+Note: 8.8.8.8 - is a Google DNS servers.

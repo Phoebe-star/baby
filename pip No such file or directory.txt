@@ -1,0 +1,13 @@
+http://cheng.logdown.com/posts/2015/06/14/-usr-bin-pip-no-such-file-or-directory
+
+
+Q:
+$ pip
+/usr/bin/pip: No such file or directory
+
+
+
+
+
+A:
+$ hash -r
